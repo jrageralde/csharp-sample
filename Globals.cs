@@ -59,8 +59,7 @@ namespace RoyTekProjectSQL
             if (sname != null && sname != "")
                 gdbServerName = sname;
             else
-                gdbServerName = @"ROY-PCNEW"; // "localhost";
-
+                gdbServerName = @"localhost"; 
             if (dname != null && dname != "")
                gdbDatabaseName = dname;
             else
